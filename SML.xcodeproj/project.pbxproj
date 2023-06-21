@@ -15,6 +15,7 @@
 		B1A709D72A4342CE00F04F36 /* SML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A709DA2A4342CE00F04F36 /* SML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SML.h; sourceTree = "<group>"; };
 		B1A709DB2A4342CE00F04F36 /* SML.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SML.docc; sourceTree = "<group>"; };
+		B1A709E42A43435A00F04F36 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +32,7 @@
 		B1A709CD2A4342CE00F04F36 = {
 			isa = PBXGroup;
 			children = (
+				B1A709E32A43434E00F04F36 /* Matrix */,
 				B1A709D92A4342CE00F04F36 /* SML */,
 				B1A709D82A4342CE00F04F36 /* Products */,
 			);
@@ -51,6 +53,14 @@
 				B1A709DB2A4342CE00F04F36 /* SML.docc */,
 			);
 			path = SML;
+			sourceTree = "<group>";
+		};
+		B1A709E32A43434E00F04F36 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				B1A709E42A43435A00F04F36 /* Constant.h */,
+			);
+			path = Matrix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
