@@ -16,6 +16,8 @@
 		B1A709DA2A4342CE00F04F36 /* SML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SML.h; sourceTree = "<group>"; };
 		B1A709DB2A4342CE00F04F36 /* SML.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SML.docc; sourceTree = "<group>"; };
 		B1A709E42A43435A00F04F36 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		B1A709E52A43438200F04F36 /* HaltonInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaltonInterface.h; sourceTree = "<group>"; };
+		B1A709E62A4343C100F04F36 /* Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B1A709E42A43435A00F04F36 /* Constant.h */,
+				B1A709E52A43438200F04F36 /* HaltonInterface.h */,
+				B1A709E62A4343C100F04F36 /* Matrix.h */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
